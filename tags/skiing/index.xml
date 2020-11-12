@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skiing on Chris Bracken</title>
+    <link>https://chris.bracken.jp/tags/skiing/</link>
+    <description>Recent content in Skiing on Chris Bracken</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Wed, 14 Apr 2004 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chris.bracken.jp/tags/skiing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>End of Season</title>
+      <link>https://chris.bracken.jp/2004/04/end-of-season/</link>
+      <pubDate>Wed, 14 Apr 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2004/04/end-of-season/</guid>
+      <description>Two last ski trips for the year. The first, at Mt. Washington, saw a beautiful attempt at a forward flip by Kevin, and Pippa ripping it up. For the second, I burned off on the 10 hour trek to Nelson, where Trav skiied until he dropped and I tried out the new Rossignol B2s.</description>
+    </item>
+    
+    <item>
+      <title>Mt. Washington</title>
+      <link>https://chris.bracken.jp/2004/03/mt-washington/</link>
+      <pubDate>Mon, 08 Mar 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2004/03/mt-washington/</guid>
+      <description>Put a group of idiots together on skis and boards, and you’ve got a guaranteed recipe for a good time. Tom managed a sweet 360 and Matt successfully pulled off half a backflip.</description>
+    </item>
+    
+  </channel>
+</rss>

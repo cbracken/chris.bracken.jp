@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Chris Bracken</title>
+    <link>https://chris.bracken.jp/post/</link>
+    <description>Recent content in Posts on Chris Bracken</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Fri, 22 May 2020 14:55:23 -0700</lastBuildDate>
+    
+	<atom:link href="https://chris.bracken.jp/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thoughts on Licences</title>
+      <link>https://chris.bracken.jp/2020/05/thoughts-on-licences/</link>
+      <pubDate>Fri, 22 May 2020 14:55:23 -0700</pubDate>
+      
+      <guid>https://chris.bracken.jp/2020/05/thoughts-on-licences/</guid>
+      <description>I don&amp;rsquo;t pretend to think that the things I create have a whole ton of value, but I do think it&amp;rsquo;s important to carefully consider the terms under which they&amp;rsquo;re shared to ensure they&amp;rsquo;re consistent with my values. Despite my general dislike for all things legalistic, the most unambiguous way to state those terms is through a licence. So a couple days ago, I tossed LICENSE files into any of my public repos that didn&amp;rsquo;t already have one.</description>
+    </item>
+    
+    <item>
+      <title>Hand-decoding an ELF binary image</title>
+      <link>https://chris.bracken.jp/2018/10/decoding-an-elf-binary/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2018/10/decoding-an-elf-binary/</guid>
+      <description>While recovering from some dentistry the other day I figured I&amp;rsquo;d have a go at better understanding the ELF binary format. What better way to do that than to compile a small program and hand-decode the resulting binary with a hex editor and whatever ELF format spec I could find.
+Overview Below, we&amp;rsquo;ll use nasm to build a small assembly Hello World program to a 64-bit ELF object file, then link that into an ELF executable with GNU ld.</description>
+    </item>
+    
+    <item>
+      <title>Moving to the US: Importing a Canadian Vehicle</title>
+      <link>https://chris.bracken.jp/2011/05/moving-to-us-letter-of-compliance/</link>
+      <pubDate>Tue, 10 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2011/05/moving-to-us-letter-of-compliance/</guid>
+      <description>&lt;p&gt;A big difference between the last time I moved to the US and this time is that
+this time, I&amp;rsquo;ve got a lot more stuff. One of those things is a recent-vintage
+Nissan. Faced with the prospect of selling my car and buying a new one, I chose
+instead to import the one I know and love. Here is my story. But be
+forewarned, it is not for the faint of heart.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Job Search, Search Job</title>
+      <link>https://chris.bracken.jp/2011/05/job-search-search-job/</link>
+      <pubDate>Fri, 06 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2011/05/job-search-search-job/</guid>
+      <description>&lt;p&gt;After close to seven fantastic years with &lt;a href=&#34;https://www.morganstanley.com&#34;&gt;Morgan Stanley&lt;/a&gt;, I&amp;rsquo;ve turned in
+my badge and exited world of finance.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Winter Sounds in Japan</title>
+      <link>https://chris.bracken.jp/2011/04/winter-sounds-in-japan/</link>
+      <pubDate>Mon, 25 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2011/04/winter-sounds-in-japan/</guid>
+      <description>&lt;p&gt;There are a lot of uniquely Japanese sounds.  But the two I&amp;rsquo;m writing
+about today appear on cold winter nights, and echo eerily through the
+dark, empty streets between dinner and bedtime.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installing Mozc on Ubuntu</title>
+      <link>https://chris.bracken.jp/2011/04/installing-mozc-on-ubuntu/</link>
+      <pubDate>Fri, 22 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2011/04/installing-mozc-on-ubuntu/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re a Japanese speaker, one of the first things you do when you install a
+fresh Linux distribution is to install a decent &lt;a href=&#34;https://en.wikipedia.org/wiki/Japanese_IME&#34;&gt;Japanese IME&lt;/a&gt;.
+Ubuntu defaults to &lt;a href=&#34;https://sourceforge.jp/projects/anthy/news/&#34;&gt;Anthy&lt;/a&gt;, but I personally prefer &lt;a href=&#34;https://code.google.com/p/mozc/&#34;&gt;Mozc&lt;/a&gt;, and
+that&amp;rsquo;s what I&amp;rsquo;m going to show you how to install here.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ride to Okutama-ko and back</title>
+      <link>https://chris.bracken.jp/2008/10/ride-to-okutamako/</link>
+      <pubDate>Sun, 26 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2008/10/ride-to-okutamako/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.google.com/maps/d/viewer?mid=1qLR0za_apX5qMJi32cqDoNYESRI&amp;amp;ie=UTF8&amp;amp;hl=en&amp;amp;msa=0&amp;amp;ll=35.67441532772013%2C139.44887900000003&amp;amp;spn=0.214689%2C0.47083&amp;amp;t=p&amp;amp;source=embed&amp;amp;z=9&#34;&gt;View map&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I haven&amp;rsquo;t ridden a &lt;a href=&#34;https://en.wikipedia.org/wiki/Century_ride&#34;&gt;century&lt;/a&gt; since I moved to Japan but with a bit of
+spare time on my hands before baby number two is due, I decided I was going to
+get back into decent enough shape that I could pull one off. I&amp;rsquo;ve been using
+mornings and weekends to get back into riding longer distances, and slowly
+building up toward the goal of 160 km by riding further and further up the Tama
+river every weekend.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monkey Madness</title>
+      <link>https://chris.bracken.jp/2008/08/monkey-madness/</link>
+      <pubDate>Fri, 22 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2008/08/monkey-madness/</guid>
+      <description>&lt;p&gt;How many police does it take to catch a monkey in one of Tokyo&amp;rsquo;s busiest train
+stations? Apparently a lot more than the &lt;a href=&#34;https://jp.youtube.com/watch?v=1LbhEJ2NUxE&#34;&gt;40 or so that
+tried&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PR#6</title>
+      <link>https://chris.bracken.jp/2007/06/pr6/</link>
+      <pubDate>Wed, 06 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2007/06/pr6/</guid>
+      <description>&lt;p&gt;According to &lt;a href=&#34;http://apple.slashdot.org/article.pl?sid=07/06/06/0028246&#34;&gt;Slashdot&lt;/a&gt;, this month the &lt;a href=&#34;https://en.wikipedia.org/wiki/Apple_II&#34;&gt;Apple
+II&lt;/a&gt; turns 30. It was in production for 18 of those 30 years,
+which likely makes it the longest-selling personal computer of all time. It was
+the computer I wrote my first program on, and spent countless hours banging in
+and editing code from &lt;em&gt;Compute&lt;/em&gt; magazine—including page after page of raw hex
+code when a program included graphics.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Google Reader</title>
+      <link>https://chris.bracken.jp/2007/05/google-reader/</link>
+      <pubDate>Wed, 30 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2007/05/google-reader/</guid>
+      <description>&lt;p&gt;For years, I&amp;rsquo;ve been a fan of &lt;a href=&#34;http://inessential.com/&#34;&gt;Brent Simmons&amp;rsquo;&lt;/a&gt; OS X-based feed
+reader, &lt;a href=&#34;http://www.newsgator.com/Individuals/NetNewsWire/&#34;&gt;NetNewsWire&lt;/a&gt;. It&amp;rsquo;s a fantastic application, and I&amp;rsquo;ve definitely
+got my money&amp;rsquo;s worth out of it. After partnering with &lt;a href=&#34;http://newsgator.com/&#34;&gt;NewsGator&lt;/a&gt;, I
+started using their online feed-reader on and off, with mixed
+results. I like that it keeps my feeds in sync between my computers,
+and that I can browse articles at lunch, but the interface is still not on par
+with NetNewsWire itself.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Apple Reinvents the Phone?</title>
+      <link>https://chris.bracken.jp/2007/01/apple-reinvents-the-iphone/</link>
+      <pubDate>Fri, 26 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2007/01/apple-reinvents-the-iphone/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Update (2009-02-28)&lt;/em&gt;: Alright, guilty as charged. &amp;ldquo;No wireless. Less space
+than a nomad.
+&lt;a href=&#34;https://slashdot.org/story/01/10/23/1816257/Apple-releases-iPod&#34;&gt;Lame&lt;/a&gt;.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;After watching the Steve Jobs iPhone keynote, I have to say I&amp;rsquo;m a little
+disappointed. While this phone has a slicker GUI than any other phone I&amp;rsquo;ve
+seen, it&amp;rsquo;s not so much the $499 US price-tag, but the stone-age functionality
+of the phone compared to what we have here in Japan that makes my jaw
+drop.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Mystery Solved</title>
+      <link>https://chris.bracken.jp/2006/09/mystery-solved/</link>
+      <pubDate>Sat, 02 Sep 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2006/09/mystery-solved/</guid>
+      <description>&lt;p&gt;One of my biggest complaints about Japan has always been the complete and utter
+lack of garbage bins in this city. There are none to be found.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Happy 139th Birthday!</title>
+      <link>https://chris.bracken.jp/2006/07/happy-139th-birthday/</link>
+      <pubDate>Sat, 01 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2006/07/happy-139th-birthday/</guid>
+      <description>&lt;p&gt;Canadians in Tokyo got a head start on the Canada Day celebrations, kicking
+things off at 8:30 am with a pancake breakfast at the &lt;a href=&#34;http://www.maplesportsbar.jp/&#34;&gt;Maple Leaf Bar &amp;amp;
+Grill&lt;/a&gt;, followed by a Canada Day barbeque at Yoyogi Park including
+hot dogs, yakitori, a massive Canadian Flag cake, and imported Canadian beer.
+By 6pm things, as started to wind down at the park, people started the long
+trek back to Shibuya and into the Maple Leaf, where it was standing room
+only.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Canadian Medical Research</title>
+      <link>https://chris.bracken.jp/2006/06/canadian-medical-research/</link>
+      <pubDate>Mon, 26 Jun 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2006/06/canadian-medical-research/</guid>
+      <description>Don&amp;rsquo;t let anyone tell you that Canada never contributed groundbreaking research to the medical field. First, the discovery and isolation of insulin by researchers at the University of Toronto; now this paper published in the British Medical Journal, co-authored by a Grade 8 student from Hamilton, Ontario.</description>
+    </item>
+    
+    <item>
+      <title>麻酔お願いします！</title>
+      <link>https://chris.bracken.jp/2005/10/masui-onegai-shimasu/</link>
+      <pubDate>Sat, 08 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2005/10/masui-onegai-shimasu/</guid>
+      <description>&lt;p&gt;Yesterday was my first trip to the dentist in years. The last time was just
+before moving to Mexico, in the summer of 2001. As you might imagine, I was not
+entirely expecting a clean bill of dental health. The fact that I had once
+again ignored my dentist&amp;rsquo;s advice to floss daily was not improving my outlook
+one bit.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Look At All The Pretty Pictures!</title>
+      <link>https://chris.bracken.jp/2005/08/look-at-all-the-pretty-pictures/</link>
+      <pubDate>Fri, 05 Aug 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2005/08/look-at-all-the-pretty-pictures/</guid>
+      <description>&lt;p&gt;So I moved my webpage and was all of a sudden faced with a deluge of emails
+from people who I never even knew read the thing. Among those emails was a
+request from my amigo Chaffee requesting more pictures.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>結婚してくれますか？</title>
+      <link>https://chris.bracken.jp/2005/07/kekkon-shite-kuremasu-ka/</link>
+      <pubDate>Sun, 31 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2005/07/kekkon-shite-kuremasu-ka/</guid>
+      <description>&lt;p&gt;The big news is that Yasuko and I will be getting married in November at
+Shimogamo Shrine in Kyoto. For the desperately curious, I &amp;lsquo;officially&amp;rsquo; proposed
+in February at &lt;em&gt;Souvenir&lt;/em&gt;, a French restaurant down the street.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bonjour, Bon Vespre!</title>
+      <link>https://chris.bracken.jp/2005/05/bonjour-bon-vespre/</link>
+      <pubDate>Wed, 11 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2005/05/bonjour-bon-vespre/</guid>
+      <description>Just how far can you travel in a week and a half? It turns out pretty far. Combining planes, trains, ships, and automobiles, Yasuko and I travelled, all told, roughly 22,100 km over the Golden Week holiday.
+From Tokyo to Avignon, on to Marseille, then Arles and Nîmes, followed by Carcassonne, Perpignan, and Barcelona, before heading back to Paris and home to Tokyo in 12 days wasn&amp;rsquo;t bad… Especially considering the car was a Fiat.</description>
+    </item>
+    
+    <item>
+      <title>桜吹雪</title>
+      <link>https://chris.bracken.jp/2005/04/sakura-fubuki/</link>
+      <pubDate>Sat, 09 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2005/04/sakura-fubuki/</guid>
+      <description>&lt;p&gt;Last weekend, the temperature shot up to 23 degrees, and in the space of two
+days, the cherry blossom trees erupted into bloom. The Japanese take this
+opportunity to throw impromptu picnics, dinners, and random sake-drinking
+events under &lt;a href=&#34;https://en.wikipedia.org/wiki/Cherry_blossom&#34;&gt;sakura&lt;/a&gt; trees all across the country.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Huh?</title>
+      <link>https://chris.bracken.jp/2005/03/huh/</link>
+      <pubDate>Tue, 29 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2005/03/huh/</guid>
+      <description>&lt;p&gt;As I stared blankly out the window of the train on my morning commute,
+something caught my eye. As the train flew along its raised track, whizzing
+past the rooftops of Gakugei-daigaku at 80 km/h, I swear I saw a guy
+standing on the roof of a building alongside the track, dressed in a red cape
+and wearing a giant fish on his head, wailing away on a guitar.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>明けましておめでとうございます！</title>
+      <link>https://chris.bracken.jp/2005/01/akemashite-omedetou/</link>
+      <pubDate>Wed, 05 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2005/01/akemashite-omedetou/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://chris.bracken.jp/post/2005-01-05-yasaka.jpg&#34;
+         alt=&#34;Buddhist monk ringing bell&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;今年も宜しくお願いします！Jumped on the Nozomi Shinkansen from Shin-Yokohama
+station on the 31st to arrive in Kyoto two hours later. It was dumping snow
+from Nagoya onwards; and by the time we hit Kyoto, about 10 cm had
+accumulated.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fresh Snow</title>
+      <link>https://chris.bracken.jp/2004/12/fresh-snow/</link>
+      <pubDate>Thu, 30 Dec 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2004/12/fresh-snow/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://chris.bracken.jp/post/2004-12-30-fuji.jpg&#34;
+         alt=&#34;View of Mt. Fuji from Ebisu Garden Place&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;I came into work to a nice surprise this morning. Sipping on hot green tea, we
+all crowded around the windows to check out the view.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>寒い！</title>
+      <link>https://chris.bracken.jp/2004/12/samui/</link>
+      <pubDate>Thu, 09 Dec 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2004/12/samui/</guid>
+      <description>&lt;p&gt;With the last days of 2004 upon us, it appears the weather has taken a turn
+from the relative warmth of November and December to plummet sub-zero
+overnight. What started as a light flurry this morning has progressed to a
+full-out blizzard, and it’s still coming down like crazy as I write
+this.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Apartment Hunting</title>
+      <link>https://chris.bracken.jp/2004/11/apartment-hunting/</link>
+      <pubDate>Thu, 04 Nov 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2004/11/apartment-hunting/</guid>
+      <description>&lt;p&gt;Through a stroke of luck, I think I may have actually found a permanent place
+to live in Jiyugaoka close to Toritsu Daigaku station.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>東京に引越しする！</title>
+      <link>https://chris.bracken.jp/2004/09/tokyo-ni-hikkoshi/</link>
+      <pubDate>Wed, 15 Sep 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2004/09/tokyo-ni-hikkoshi/</guid>
+      <description>After two years back in Canada and several trips back and forth to Japan, I’ve signed a full-time contract as a software developer with a firm in Tokyo and am permanently re-locating to Japan. I’ll post pictures as soon as I can get around to it.</description>
+    </item>
+    
+    <item>
+      <title>New York, NY, USA</title>
+      <link>https://chris.bracken.jp/2004/09/new-york-ny-usa/</link>
+      <pubDate>Thu, 09 Sep 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2004/09/new-york-ny-usa/</guid>
+      <description>Flew out to New York for interviews with Tokyo via videoconference on the 9th and 10th. More details later, but I’ll post pictures now.</description>
+    </item>
+    
+    <item>
+      <title>Summer 2004 in Japan</title>
+      <link>https://chris.bracken.jp/2004/08/summer-2004-in-japan/</link>
+      <pubDate>Fri, 20 Aug 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2004/08/summer-2004-in-japan/</guid>
+      <description>&lt;p&gt;I had originally planned my summer vacations for May, then July, and finally,
+in an effort to match my summer vacations with those of friends in Japan, ended
+up shuffling them back to August. Aside from the scorching heat, August is a
+fantastic time of year to visit. The heat this summer was more than a little
+bit scorching though, it was the hottest summer in ten years.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>End of Season</title>
+      <link>https://chris.bracken.jp/2004/04/end-of-season/</link>
+      <pubDate>Wed, 14 Apr 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2004/04/end-of-season/</guid>
+      <description>Two last ski trips for the year. The first, at Mt. Washington, saw a beautiful attempt at a forward flip by Kevin, and Pippa ripping it up. For the second, I burned off on the 10 hour trek to Nelson, where Trav skiied until he dropped and I tried out the new Rossignol B2s.</description>
+    </item>
+    
+    <item>
+      <title>Mt. Washington</title>
+      <link>https://chris.bracken.jp/2004/03/mt-washington/</link>
+      <pubDate>Mon, 08 Mar 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2004/03/mt-washington/</guid>
+      <description>Put a group of idiots together on skis and boards, and you’ve got a guaranteed recipe for a good time. Tom managed a sweet 360 and Matt successfully pulled off half a backflip.</description>
+    </item>
+    
+    <item>
+      <title>Biking Japan 2003</title>
+      <link>https://chris.bracken.jp/2003/08/biking-japan-2003/</link>
+      <pubDate>Sun, 17 Aug 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2003/08/biking-japan-2003/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://chris.bracken.jp/post/2003-08-17-cycling-in-japan.jpg&#34;
+         alt=&#34;Brodie bike parked beside vending machines in front of restaurant&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;The plan was to travel from Osaka north to the Japan Sea, northeast along the
+coast to Joetsu, south through the alps to Nagano, then southeast all the way
+to Tokyo — a total distance of close to 1200 km, entirely by bicycle.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Site Update</title>
+      <link>https://chris.bracken.jp/2003/04/site-update/</link>
+      <pubDate>Tue, 01 Apr 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2003/04/site-update/</guid>
+      <description>I finally got around to updating and re-organizing the site. It should render properly in everything from the latest browser to lynx or a text-based browser on a cell phone. All the reports from Mérida are now up, including links to photos at the top of each page. The trip home is still a work in progress.</description>
+    </item>
+    
+    <item>
+      <title>I am Canadian</title>
+      <link>https://chris.bracken.jp/2003/02/i-am-canadian/</link>
+      <pubDate>Fri, 28 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2003/02/i-am-canadian/</guid>
+      <description>Since the original I am Canadian ad, Molson has released a slew of others, but until recently, I haven’t been too impressed; however, the I Am Canadian Anthem is a hilarious 90-second snapshot of the cultural history of this country.
+  </description>
+    </item>
+    
+    <item>
+      <title>Back in Canada</title>
+      <link>https://chris.bracken.jp/2002/05/back-in-canada/</link>
+      <pubDate>Sun, 26 May 2002 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2002/05/back-in-canada/</guid>
+      <description>Back in Victoria, B.C. after a two month return home to Canada by land beginning in Mérida, Yucatán and continuing through Cuba, Belize, Guatemala, Honduras, then all the way back up through Guatemala, México, the U.S. and finally across Western Canada.</description>
+    </item>
+    
+    <item>
+      <title>Chetumal, Quintana Roo, México</title>
+      <link>https://chris.bracken.jp/2002/04/chetumal-quintana-roo-mexico/</link>
+      <pubDate>Thu, 04 Apr 2002 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2002/04/chetumal-quintana-roo-mexico/</guid>
+      <description>&lt;p&gt;As we stepped off the Cubana Ilyushin Il-62 plane at the Cancun airport, I
+literally kissed the ground in happiness. The airport was crowded with people
+snacking on good Mexican food and the sound of shouting and laughter filled the
+air. After all the episodes of trouble, dengue fever, and trying to figure out
+what the hell was actually going on, it was easy to lose sight of just how
+great a country México is, and after Cuba, coming back to México felt like
+coming home.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Trinidad, Sancti Spiritus, Cuba</title>
+      <link>https://chris.bracken.jp/2002/03/trinidad-sancti-spiritus-cuba/</link>
+      <pubDate>Thu, 21 Mar 2002 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2002/03/trinidad-sancti-spiritus-cuba/</guid>
+      <description>&lt;p&gt;Looking down on the ocean from the rolling hills a kilometre away, Trinidad is
+a small, traditional town whose population of 50,000 takes great pride in its
+home. Founded by Diego Velásquez in 1514, Trinidad became a stopover for
+explorers and trading ships travelling to and from México. During the 17th and
+18th centuries, its economy largely depended on trading contraband with
+pirates. The buildings are in incredibly good shape for their age, most of
+which are at least two centuries old. It’s not too tough to see why Trinidad is
+now a UNESCO World Heritage Site.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>La Habana, Cuba</title>
+      <link>https://chris.bracken.jp/2002/03/la-habana/</link>
+      <pubDate>Tue, 19 Mar 2002 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2002/03/la-habana/</guid>
+      <description>&lt;p&gt;Havana is a city of contradictions. It’s simultaneously one of the most
+beautiful and most run down cities in the world. It’s hard to imagine how
+things could be any worse, or any better given the Cuba’s political past and
+present.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>¡Feliz Navidad!</title>
+      <link>https://chris.bracken.jp/2002/01/feliz-navidad/</link>
+      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2002/01/feliz-navidad/</guid>
+      <description>&lt;p&gt;Took a two week trip through southern México for Christmas. Starting in Mérida,
+southwest into Campeche, Tabasco, Veracruz and then Chiapas.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Valladolid, Yucatán, México</title>
+      <link>https://chris.bracken.jp/2001/12/valladolid-yucatan-mexico/</link>
+      <pubDate>Thu, 27 Dec 2001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/12/valladolid-yucatan-mexico/</guid>
+      <description>&lt;p&gt;In 1543, Francisco de Montejo (the nephew of Mérida’s famous Francisco de
+Montejo) descended on the ceremonial centre of the Zací (Hawk) Maya, waging war
+on the &lt;em&gt;Cupules&lt;/em&gt;, a group of Maya that hadn’t taken kindly to the Spanish
+conquistadors. When the battle was done and the town had been razed, he renamed
+it Valladolid in honour of the Spanish city of the same name.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chichen Itzá, Yucatán, México</title>
+      <link>https://chris.bracken.jp/2001/12/chichen-itza-yucatan-mexico/</link>
+      <pubDate>Wed, 26 Dec 2001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/12/chichen-itza-yucatan-mexico/</guid>
+      <description>&lt;p&gt;Somewhere on the old highway between Cancún and Mérida lies Chichen Itzá. The
+ruins at this site cover over 15 square kilometres, with &lt;em&gt;El Castillo&lt;/em&gt; alone
+taking up 0.4 hectares. At 83 metres in length, the Ball Court is the largest
+in Meso-America. The close proximity of the ruins to Cancún and the size of
+some of the structures have made these the most famous Mayan ruins in the
+country.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tulúm, Quintana Roo, México</title>
+      <link>https://chris.bracken.jp/2001/12/tulum-quintana-roo-mexico/</link>
+      <pubDate>Mon, 24 Dec 2001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/12/tulum-quintana-roo-mexico/</guid>
+      <description>Between San Cristóbal and Tulúm is a long, empty road. The overnight bus works beautifully for this trip, winding its way through the mountains, jungle and the vast plains of the Yucatán. The only major stop along the way is Escarcega, Campeche. By major, I mean a couple of comida corrida places, a papaya tree, and a dusty bus stop on a long, empty stretch of highway. By six in the morning, we were in Tulúm, a slightly bigger collection of restaurants and bus stops along a long, empty stretch of highway.</description>
+    </item>
+    
+    <item>
+      <title>San Cristóbal de las Casas, Chiapas, México</title>
+      <link>https://chris.bracken.jp/2001/12/san-cristobal-de-las-casas-chiapas-mexico/</link>
+      <pubDate>Fri, 21 Dec 2001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/12/san-cristobal-de-las-casas-chiapas-mexico/</guid>
+      <description>&lt;p&gt;San Cristóbal is, without question, one of the most beautiful towns in Mexico.
+It’s also the ideal temperature for visiting Canadians, with the temperature
+hovering around 10 °C, and the humidity close to 100% during the daytime in
+winter. It’s cold, damp and cloudy. After months of scorching heat and
+humidity, I was in heaven. San Cristóbal makes an ideal base from which to do
+day-trips to the surrounding villages of San Juan Chamula and
+Zinacantán—indigenous villages comprising the Tzotzil and Tzeltal indigenous
+groups respectively.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Palenque, Chiapas, México</title>
+      <link>https://chris.bracken.jp/2001/12/palenque-chiapas-mexico/</link>
+      <pubDate>Tue, 18 Dec 2001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/12/palenque-chiapas-mexico/</guid>
+      <description>&lt;p&gt;For Christmas, we decided to take a trip to the state of Chiapas, about an 8
+hour bus ride from Mérida. Although Chiapas has been a somewhat politically
+unstable state during the past 10 years, it is also home to some of the most
+incredible scenery, archaeological sites and indigenous culture in the
+country.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dzibilchaltún, Yucatán, México</title>
+      <link>https://chris.bracken.jp/2001/09/dzibilchaltun-yucatan-mexico/</link>
+      <pubDate>Tue, 11 Sep 2001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/09/dzibilchaltun-yucatan-mexico/</guid>
+      <description>&lt;p&gt;About halfway between Mérida and Progresso lie the ruins of Dzibilchaltún, an
+important centre in the ancient world of the Maya. The name means &amp;lsquo;The place
+with writing on the stones.&amp;rsquo;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Isla Mujeres, Quintana Roo, México</title>
+      <link>https://chris.bracken.jp/2001/09/isla-mujeres-quintana-roo-mexico/</link>
+      <pubDate>Thu, 06 Sep 2001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/09/isla-mujeres-quintana-roo-mexico/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://chris.bracken.jp/post/2001-09-06-lancha.jpg&#34;
+         alt=&#34;A small &amp;#39;lancha&amp;#39; boat floats in the crystal-clear blue waters of the Caribbean, moored a few metres offshore a white sandy beach.&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Lo que tu eres, yo fui&lt;br&gt;
+Lo que yo soy, luego serás&lt;br&gt;
+&lt;em&gt;—Inscription on the pirate Mundaca’s Tomb&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chelem, Yucatán, México</title>
+      <link>https://chris.bracken.jp/2001/08/chelem-yucatan-mexico/</link>
+      <pubDate>Fri, 31 Aug 2001 14:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/08/chelem-yucatan-mexico/</guid>
+      <description>&lt;p&gt;Grabbed a bus north to Progreso to go to the beach. While it was beautiful
+weather and the ocean looked great, there were no palm trees on the beach, so
+it was impossible to find any shade. We’d heard that in the next town over,
+Yucalpetén, there were some great beaches, so we asked around and finally found
+a colectivo headed out in that direction. The one we found stopped
+by a bathing centre and the town of Chelem. Now right now I’m going to come
+straight out and say it: if someone ever tells you a story about the amazing
+beaches at Yucalpetén, just back away slowly and do not make any sudden
+moves—the person you are talking to has probably escaped from an asylum.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Progreso, Yucatán, México</title>
+      <link>https://chris.bracken.jp/2001/08/progreso-yucatan-mexico/</link>
+      <pubDate>Fri, 31 Aug 2001 10:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/08/progreso-yucatan-mexico/</guid>
+      <description>&lt;p&gt;Half an hour north of Mérida is the port town of Progreso. Though it’s on the
+gulf side of the peninsula, the water is still a beautiful turquoise-blue; it
+puts Canadian beaches to shame. On a hot weekend, Progreso makes a fun day
+trip. The wind keeps you cool, and as long as you keep ordering drinks, the
+food comes free at the palapa huts on the beach.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Izamal, Yucatán, México</title>
+      <link>https://chris.bracken.jp/2001/08/izamal-yucatan-mexico/</link>
+      <pubDate>Thu, 30 Aug 2001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/08/izamal-yucatan-mexico/</guid>
+      <description>&lt;p&gt;Took a trip a few towns to the east this morning, to Izamal. While Mérida is
+known throughout México as the White City, Izamal is referred to as the Yellow
+City due to the preponderance of yellow buildings. With a population of 15,000
+or so, it’s much quieter than Mérida, and horse-drawn carriages are still used
+as transportation by some of its residents. The two big tourist attractions
+here are the ruins of Kinich-Kakmó, one of 12 Mayan temples that originally
+stood at the site of this town, and the Franciscan Monastery, one of the first
+in the New World, built from the stones of the largest Mayan temple in Izamal
+after it was torn down by the Conquistadors.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Quest for a Hammock</title>
+      <link>https://chris.bracken.jp/2001/08/quest-for-a-hammock/</link>
+      <pubDate>Tue, 28 Aug 2001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/08/quest-for-a-hammock/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://chris.bracken.jp/post/2001-08-28-old-door.jpg&#34;
+         alt=&#34;A worn-down wooden door lies framed by a crumbling building façade in Mérida. Traces of faded lettering remain where the paint has not flaked away.&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;In Mérida, most people sleep in hammocks. Walk down any residential street and
+look in the windows and you’ll see hammocks strung all over the room. What I’m
+getting at is that I finally caved in and bought a hammock. Now sit back and
+listen, ’cause here’s my advice…&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mérida, Yucatán, México</title>
+      <link>https://chris.bracken.jp/2001/08/merida-yucatan-mexico/</link>
+      <pubDate>Fri, 17 Aug 2001 16:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/08/merida-yucatan-mexico/</guid>
+      <description>&lt;p&gt;Arrived in Cancún on Friday at about 6 pm, took out some money from the bank
+machine, and hopped into a colectivo¹ for Ciudad Cancún—the city itself—a
+twenty minute drive from the long strip of hotels between the lagoon and the
+ocean that the outside world refers to as Cancún. By the time the colectivo got
+to the bus station, it was 9 pm, so after checking out the schedule and booking
+tickets, there was just enough time to grab some dinner and get some sleep
+before heading off to Mérida first thing the next morning.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>¡Hola México!</title>
+      <link>https://chris.bracken.jp/2001/08/hola-mexico/</link>
+      <pubDate>Fri, 17 Aug 2001 11:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2001/08/hola-mexico/</guid>
+      <description>After a year and a half in San Francisco, California, we’ve moved to Mérida, Yucatán, México. So far so good! The heat is scorching, the humidity is sweltering, and the mosquitos are biting. But Mérida is a beautiful city, and the people are wonderful.</description>
+    </item>
+    
+  </channel>
+</rss>

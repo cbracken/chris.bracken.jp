@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cuba on Chris Bracken</title>
+    <link>https://chris.bracken.jp/tags/cuba/</link>
+    <description>Recent content in Cuba on Chris Bracken</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Thu, 21 Mar 2002 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chris.bracken.jp/tags/cuba/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trinidad, Sancti Spiritus, Cuba</title>
+      <link>https://chris.bracken.jp/2002/03/trinidad-sancti-spiritus-cuba/</link>
+      <pubDate>Thu, 21 Mar 2002 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2002/03/trinidad-sancti-spiritus-cuba/</guid>
+      <description>&lt;p&gt;Looking down on the ocean from the rolling hills a kilometre away, Trinidad is
+a small, traditional town whose population of 50,000 takes great pride in its
+home. Founded by Diego Velásquez in 1514, Trinidad became a stopover for
+explorers and trading ships travelling to and from México. During the 17th and
+18th centuries, its economy largely depended on trading contraband with
+pirates. The buildings are in incredibly good shape for their age, most of
+which are at least two centuries old. It’s not too tough to see why Trinidad is
+now a UNESCO World Heritage Site.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>La Habana, Cuba</title>
+      <link>https://chris.bracken.jp/2002/03/la-habana/</link>
+      <pubDate>Tue, 19 Mar 2002 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2002/03/la-habana/</guid>
+      <description>&lt;p&gt;Havana is a city of contradictions. It’s simultaneously one of the most
+beautiful and most run down cities in the world. It’s hard to imagine how
+things could be any worse, or any better given the Cuba’s political past and
+present.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

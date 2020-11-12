@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Chris Bracken</title>
+    <link>https://chris.bracken.jp/tags/software/</link>
+    <description>Recent content in Software on Chris Bracken</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Fri, 22 May 2020 14:55:23 -0700</lastBuildDate>
+    
+	<atom:link href="https://chris.bracken.jp/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thoughts on Licences</title>
+      <link>https://chris.bracken.jp/2020/05/thoughts-on-licences/</link>
+      <pubDate>Fri, 22 May 2020 14:55:23 -0700</pubDate>
+      
+      <guid>https://chris.bracken.jp/2020/05/thoughts-on-licences/</guid>
+      <description>I don&amp;rsquo;t pretend to think that the things I create have a whole ton of value, but I do think it&amp;rsquo;s important to carefully consider the terms under which they&amp;rsquo;re shared to ensure they&amp;rsquo;re consistent with my values. Despite my general dislike for all things legalistic, the most unambiguous way to state those terms is through a licence. So a couple days ago, I tossed LICENSE files into any of my public repos that didn&amp;rsquo;t already have one.</description>
+    </item>
+    
+    <item>
+      <title>Hand-decoding an ELF binary image</title>
+      <link>https://chris.bracken.jp/2018/10/decoding-an-elf-binary/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2018/10/decoding-an-elf-binary/</guid>
+      <description>While recovering from some dentistry the other day I figured I&amp;rsquo;d have a go at better understanding the ELF binary format. What better way to do that than to compile a small program and hand-decode the resulting binary with a hex editor and whatever ELF format spec I could find.
+Overview Below, we&amp;rsquo;ll use nasm to build a small assembly Hello World program to a 64-bit ELF object file, then link that into an ELF executable with GNU ld.</description>
+    </item>
+    
+    <item>
+      <title>Installing Mozc on Ubuntu</title>
+      <link>https://chris.bracken.jp/2011/04/installing-mozc-on-ubuntu/</link>
+      <pubDate>Fri, 22 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2011/04/installing-mozc-on-ubuntu/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re a Japanese speaker, one of the first things you do when you install a
+fresh Linux distribution is to install a decent &lt;a href=&#34;https://en.wikipedia.org/wiki/Japanese_IME&#34;&gt;Japanese IME&lt;/a&gt;.
+Ubuntu defaults to &lt;a href=&#34;https://sourceforge.jp/projects/anthy/news/&#34;&gt;Anthy&lt;/a&gt;, but I personally prefer &lt;a href=&#34;https://code.google.com/p/mozc/&#34;&gt;Mozc&lt;/a&gt;, and
+that&amp;rsquo;s what I&amp;rsquo;m going to show you how to install here.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Google Reader</title>
+      <link>https://chris.bracken.jp/2007/05/google-reader/</link>
+      <pubDate>Wed, 30 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2007/05/google-reader/</guid>
+      <description>&lt;p&gt;For years, I&amp;rsquo;ve been a fan of &lt;a href=&#34;http://inessential.com/&#34;&gt;Brent Simmons&amp;rsquo;&lt;/a&gt; OS X-based feed
+reader, &lt;a href=&#34;http://www.newsgator.com/Individuals/NetNewsWire/&#34;&gt;NetNewsWire&lt;/a&gt;. It&amp;rsquo;s a fantastic application, and I&amp;rsquo;ve definitely
+got my money&amp;rsquo;s worth out of it. After partnering with &lt;a href=&#34;http://newsgator.com/&#34;&gt;NewsGator&lt;/a&gt;, I
+started using their online feed-reader on and off, with mixed
+results. I like that it keeps my feeds in sync between my computers,
+and that I can browse articles at lunch, but the interface is still not on par
+with NetNewsWire itself.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

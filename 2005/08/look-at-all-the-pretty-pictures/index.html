@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Look At All The Pretty Pictures! - Chris Bracken</title>
+<link href="/css/site.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#140f42">
+<link rel="shortcut icon" href="/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#603cba">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<header id="header">
+<div class="site-title">
+<h1><a href="/">Chris Bracken</a></h1>
+</div>
+
+<nav class="site-navbar">
+<ul id="menu" class="menu">
+  <li class="menu-item"><a class="menu-item-a" href="/">Home</a></li>
+  <li class="menu-item"><a class="menu-item-a" href="/about/">About</a></li>
+  <li class="menu-item"><a class="menu-item-a" href="/code/">Code</a></li>
+  <li class="menu-item"><a class="menu-item-a" href="https://twitter.com/cbracken/">Twitter</a></li>
+</ul>
+</nav>
+</header>
+<main id="main">
+<article>
+<h2 class="post-title"><a href="https://chris.bracken.jp/2005/08/look-at-all-the-pretty-pictures/">Look At All The Pretty Pictures!</a></h2>
+05 August 2005
+<p>So I moved my webpage and was all of a sudden faced with a deluge of emails
+from people who I never even knew read the thing. Among those emails was a
+request from my amigo Chaffee requesting more pictures.</p>
+<p>Seeing as
+I&rsquo;d always wanted to play with the <a href="https://flickr.com/services/">Flickr API</a>, I requested an API
+Key and started hacking away at some <a href="https://php.net">PHP</a>. The end result is that on the
+left side of this page, you now get to see whatever happens to be the latest
+picture I&rsquo;ve taken on my mobile phone.</p>
+<p>The moment I take a picture with my cellphone, it gets emailed to the magical
+servers at <a href="https://flickr.com">Flickr</a> and tagged with a title, some keywords, and a
+description. The next time someone loads this page, a small PHP script in the
+innards of this site makes a <a href="https://www.w3.org/TR/soap/">SOAP</a> request to Flickr&rsquo;s servers and
+retrieves an <a href="https://www.w3.org/XML/">XML</a> response. This response is then parsed out and a URI to
+the thumbnail image on Flickr&rsquo;s servers is generated which is then inserted
+into this page. To improve performance a tiny bit, I avoid the overhead of the
+SOAP call every time this page is loaded by caching the response for five
+minutes and reading the cached XML if it&rsquo;s available.</p>
+<p>For those of you who are into <a href="https://www.xml.com/pub/a/2002/12/18/dive-into-xml.html">RSS</a>, I&rsquo;ve added a <a href="feed://flickr.com/services/feeds/photos_public.gne?id=37996625178@N01&amp;format=atom_03">Flickr
+feed</a> to my pictures in the HTML headers on this site.</p>
+<p>My goal—and this is entirely for you, Chaffee—is to take at least one
+picture a day, which is far more ambitious a schedule than my posting to this
+page. We&rsquo;ll see how that works out.</p></article>
+</main>
+
+<footer id="footer">
+<div class="copyright">
+<span xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#">
+The content of this site by
+<a rel="cc:attributionURL" href="https://chris.bracken.jp/about"><span rel="cc:attributionName">Chris Bracken</span></a>
+is
+<a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>.
+</span>
+</div>
+</footer>
+</body>
+</html>

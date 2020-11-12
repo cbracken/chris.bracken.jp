@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en-ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Installing Mozc on Ubuntu - Chris Bracken</title>
+<link href="/css/site.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#140f42">
+<link rel="shortcut icon" href="/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#603cba">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<header id="header">
+<div class="site-title">
+<h1><a href="/">Chris Bracken</a></h1>
+</div>
+
+<nav class="site-navbar">
+<ul id="menu" class="menu">
+  <li class="menu-item"><a class="menu-item-a" href="/">Home</a></li>
+  <li class="menu-item"><a class="menu-item-a" href="/about/">About</a></li>
+  <li class="menu-item"><a class="menu-item-a" href="/code/">Code</a></li>
+  <li class="menu-item"><a class="menu-item-a" href="https://twitter.com/cbracken/">Twitter</a></li>
+</ul>
+</nav>
+</header>
+<main id="main">
+<article>
+<h2 class="post-title"><a href="https://chris.bracken.jp/2011/04/installing-mozc-on-ubuntu/">Installing Mozc on Ubuntu</a></h2>
+22 April 2011
+<p>If you&rsquo;re a Japanese speaker, one of the first things you do when you install a
+fresh Linux distribution is to install a decent <a href="https://en.wikipedia.org/wiki/Japanese_IME">Japanese IME</a>.
+Ubuntu defaults to <a href="https://sourceforge.jp/projects/anthy/news/">Anthy</a>, but I personally prefer <a href="https://code.google.com/p/mozc/">Mozc</a>, and
+that&rsquo;s what I&rsquo;m going to show you how to install here.</p>
+<p><em>Update (2011-05-01):</em> Found an older <a href="https://www.youtube.com/watch?v=MfgjTCXZ2-s">video tutorial</a> on YouTube
+which provides an alternative (and potentially more comprehensive) solution for
+Japanese support on 10.10 using ibus instead of uim, which is the better choice
+for newer releases.</p>
+<p><em>Update (2011-10-25):</em> The software installation part of this process got a
+whole lot easier in Ubuntu releases after Natty, and as noted above, I&rsquo;d
+recommend sticking with ibus over uim.</p>
+<h3 id="japanese-input-basics">Japanese Input Basics</h3>
+<p>Before we get going, let&rsquo;s understand a bit about how Japanese input works on
+computers. Japanese comprises three main character sets: the two phonetic
+character sets, hiragana and katakana at 50 characters each, plus many
+thousands of Kanji, each with multiple readings. Clearly a full keyboard is
+impractical, so a mapping is required.</p>
+<p>Input happens in two steps. First, you input the text phonetically, then you
+convert it to a mix of kanji and kana.</p>
+<figure>
+    <img src="/post/2011-04-22-henkan.png"
+         alt="Japanese IME completion menu"/> 
+</figure>
+
+<p>Over the years, two main mechanisms evolved to input kana. The first was common
+on old <em>wapuro</em>, and assigns a kana to each key on the keyboard—e.g. where
+the <em>A</em> key appears on a QWERTY keyboard, you&rsquo;ll find a ち. This is how our
+grandparents hacked out articles for the local <em>shinbun</em>, but I suspect only a
+few die-hard traditionalists still do this. The second and more common method
+is literal <a href="https://en.wikipedia.org/wiki/Wapuro">transliteration of roman characters into kana</a>. You
+type <em>fujisan</em> and out comes ふじさん.</p>
+<p>Once the phonetic kana have been input, you execute a conversion step wherein
+the input is transformed into the appropriate mix of kanji and kana. Given the
+large number of homonyms in Japanese, this step often involves disambiguating
+your input by selecting the intended kanji. For example, the <em>mita</em> in <em>eiga wo
+mita</em> (I watched a movie) is properly rendered as 観た whereas the <em>mita</em> in
+<em>kuruma wo mita</em> (I saw a car) should be 見た, and in neither case is it <em>mita</em>
+as in the place name <em>Mita-bashi</em> (Mita bridge) which is written 三田.</p>
+<h3 id="some-implementation-details">Some Implementation Details</h3>
+<p>Let&rsquo;s look at implementation. There are two main components used in inputting
+Japanese text:</p>
+<p>The GUI system (e.g. ibus, uim) is responsible for:</p>
+<ol>
+<li>Maintaining and switching the current input mode:
+ローマ字、ひらがな、カタカナ、半額カタカナ.</li>
+<li>Transliteration of character input into kana: <em>ku</em> into く,
+<em>nekko</em> into ねっこ, <em>xtu</em> into っ.</li>
+<li>Managing the text under edit (the underlined stuff) and the
+drop-down list of transliterations.</li>
+<li>Ancillary functions such as supplying a GUI for custom dictionary
+management, kanji lookup by radical, etc.</li>
+</ol>
+<p>The transliteration engine (e.g. Anthy, Mozc) is responsible for transforming a
+piece of input text, usually in kana form, into kanji: for example みる into
+one of: 見る、観る、診る、視る. This involves:</p>
+<ol>
+<li>Breaking the input phrase into components.</li>
+<li>Transforming each component into the appropriate best guess based on context
+and historical input.</li>
+<li>Supplying alternative transformations in case the best guess was incorrect.</li>
+</ol>
+<h3 id="why-mozc">Why Mozc?</h3>
+<p>TL;DR: because it&rsquo;s better. Have a look at the conversion list up at the top of
+this post. The input is <em>kinou</em>, for which there are two main conversion
+candidates: 機能 (feature) and 昨日 (yesterday). Notice however, that it also
+supplies several conversions for yesterday&rsquo;s date in various formats, including
+「平成23年4月21日」 using <a href="https://en.wikipedia.org/wiki/Japanese_era_name">Japanese Era Name</a> rather than the
+Western notation 2011. This is just one small improvement among dozens of
+clever tricks it performs. If you&rsquo;re thinking this bears an uncanny resemblance
+to tricks that <a href="https://www.google.com/intl/ja/ime/">Google&rsquo;s Japanese IME</a> supports, you&rsquo;re right: Mozc
+originated from the same codebase.</p>
+<h3 id="switching-to-mozc">Switching to Mozc</h3>
+<p>So let&rsquo;s assume you&rsquo;re now convinced to abandon Anthy and switch to Mozc.
+You&rsquo;ll need to make some changes. Here are the steps:</p>
+<p>If you haven&rsquo;t yet done so, install some Japanese fonts from either Software
+Centre or Synaptic. I&rsquo;d recommend grabbing the <em>ttf-takao</em> package.</p>
+<p>Next up, we&rsquo;ll install and configure Mozc.</p>
+<ol>
+<li><strong>Install ibus-mozc:</strong> <code>sudo apt-get install ibus-mozc</code></li>
+<li><strong>Restart the ibus daemon:</strong> <code>/usr/bin/ibus-daemon --xim -r -d</code></li>
+<li><strong>Set your input method to mozc:</strong>
+<ol>
+<li>Open <em>Keyboard Input Methods</em> settings.</li>
+<li>Select the <em>Input Method</em> tab.</li>
+<li>From the <em>Select an input method</em> drop-down, select Japanese, then mozc from
+the sub-menu.</li>
+<li>Select <em>Japanese - Anthy</em> from the list, if it appears there, and click
+<em>Remove</em>.</li>
+</ol>
+</li>
+<li><strong>Optionally, remove Anthy from your system:</strong> <code>sudo apt-get autoremove anthy</code></li>
+</ol>
+<p>Log out, and back in. You should see an input method menu in the menu
+bar at the top of the screen.</p>
+<p>That&rsquo;s it, Mozcを楽しんでください！</p></article>
+</main>
+
+<footer id="footer">
+<div class="copyright">
+<span xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#">
+The content of this site by
+<a rel="cc:attributionURL" href="https://chris.bracken.jp/about"><span rel="cc:attributionName">Chris Bracken</span></a>
+is
+<a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>.
+</span>
+</div>
+</footer>
+</body>
+</html>

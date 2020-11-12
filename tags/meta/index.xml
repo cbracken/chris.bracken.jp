@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on Chris Bracken</title>
+    <link>https://chris.bracken.jp/tags/meta/</link>
+    <description>Recent content in Meta on Chris Bracken</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Fri, 22 May 2020 14:55:23 -0700</lastBuildDate>
+    
+	<atom:link href="https://chris.bracken.jp/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thoughts on Licences</title>
+      <link>https://chris.bracken.jp/2020/05/thoughts-on-licences/</link>
+      <pubDate>Fri, 22 May 2020 14:55:23 -0700</pubDate>
+      
+      <guid>https://chris.bracken.jp/2020/05/thoughts-on-licences/</guid>
+      <description>I don&amp;rsquo;t pretend to think that the things I create have a whole ton of value, but I do think it&amp;rsquo;s important to carefully consider the terms under which they&amp;rsquo;re shared to ensure they&amp;rsquo;re consistent with my values. Despite my general dislike for all things legalistic, the most unambiguous way to state those terms is through a licence. So a couple days ago, I tossed LICENSE files into any of my public repos that didn&amp;rsquo;t already have one.</description>
+    </item>
+    
+    <item>
+      <title>Look At All The Pretty Pictures!</title>
+      <link>https://chris.bracken.jp/2005/08/look-at-all-the-pretty-pictures/</link>
+      <pubDate>Fri, 05 Aug 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2005/08/look-at-all-the-pretty-pictures/</guid>
+      <description>&lt;p&gt;So I moved my webpage and was all of a sudden faced with a deluge of emails
+from people who I never even knew read the thing. Among those emails was a
+request from my amigo Chaffee requesting more pictures.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Site Update</title>
+      <link>https://chris.bracken.jp/2003/04/site-update/</link>
+      <pubDate>Tue, 01 Apr 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2003/04/site-update/</guid>
+      <description>I finally got around to updating and re-organizing the site. It should render properly in everything from the latest browser to lynx or a text-based browser on a cell phone. All the reports from Mérida are now up, including links to photos at the top of each page. The trip home is still a work in progress.</description>
+    </item>
+    
+  </channel>
+</rss>

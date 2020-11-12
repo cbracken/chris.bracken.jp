@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Japanese on Chris Bracken</title>
+    <link>https://chris.bracken.jp/tags/japanese/</link>
+    <description>Recent content in Japanese on Chris Bracken</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Fri, 22 Apr 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chris.bracken.jp/tags/japanese/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing Mozc on Ubuntu</title>
+      <link>https://chris.bracken.jp/2011/04/installing-mozc-on-ubuntu/</link>
+      <pubDate>Fri, 22 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2011/04/installing-mozc-on-ubuntu/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re a Japanese speaker, one of the first things you do when you install a
+fresh Linux distribution is to install a decent &lt;a href=&#34;https://en.wikipedia.org/wiki/Japanese_IME&#34;&gt;Japanese IME&lt;/a&gt;.
+Ubuntu defaults to &lt;a href=&#34;https://sourceforge.jp/projects/anthy/news/&#34;&gt;Anthy&lt;/a&gt;, but I personally prefer &lt;a href=&#34;https://code.google.com/p/mozc/&#34;&gt;Mozc&lt;/a&gt;, and
+that&amp;rsquo;s what I&amp;rsquo;m going to show you how to install here.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Retro on Chris Bracken</title>
+    <link>https://chris.bracken.jp/tags/retro/</link>
+    <description>Recent content in Retro on Chris Bracken</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Wed, 06 Jun 2007 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chris.bracken.jp/tags/retro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PR#6</title>
+      <link>https://chris.bracken.jp/2007/06/pr6/</link>
+      <pubDate>Wed, 06 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris.bracken.jp/2007/06/pr6/</guid>
+      <description>&lt;p&gt;According to &lt;a href=&#34;http://apple.slashdot.org/article.pl?sid=07/06/06/0028246&#34;&gt;Slashdot&lt;/a&gt;, this month the &lt;a href=&#34;https://en.wikipedia.org/wiki/Apple_II&#34;&gt;Apple
+II&lt;/a&gt; turns 30. It was in production for 18 of those 30 years,
+which likely makes it the longest-selling personal computer of all time. It was
+the computer I wrote my first program on, and spent countless hours banging in
+and editing code from &lt;em&gt;Compute&lt;/em&gt; magazine—including page after page of raw hex
+code when a program included graphics.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
