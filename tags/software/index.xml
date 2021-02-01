@@ -5,12 +5,8 @@
     <link>https://chris.bracken.jp/tags/software/</link>
     <description>Recent content in Software on Chris Bracken</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-ca</language>
-    <lastBuildDate>Fri, 22 May 2020 14:55:23 -0700</lastBuildDate>
-    
-	<atom:link href="https://chris.bracken.jp/tags/software/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language>
+    <lastBuildDate>Fri, 22 May 2020 14:55:23 -0700</lastBuildDate><atom:link href="https://chris.bracken.jp/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thoughts on Licences</title>
       <link>https://chris.bracken.jp/2020/05/thoughts-on-licences/</link>
@@ -48,7 +44,7 @@ that&amp;rsquo;s what I&amp;rsquo;m going to show you how to install here.&lt;/p
       <pubDate>Wed, 30 May 2007 00:00:00 +0000</pubDate>
       
       <guid>https://chris.bracken.jp/2007/05/google-reader/</guid>
-      <description>&lt;p&gt;For years, I&amp;rsquo;ve been a fan of &lt;a href=&#34;http://inessential.com/&#34;&gt;Brent Simmons&amp;rsquo;&lt;/a&gt; OS X-based feed
+      <description>&lt;p&gt;For years, I&amp;rsquo;ve been a fan of &lt;a href=&#34;http://inessential.com/&#34;&gt;Brent Simmons&#39;&lt;/a&gt; OS X-based feed
 reader, &lt;a href=&#34;http://www.newsgator.com/Individuals/NetNewsWire/&#34;&gt;NetNewsWire&lt;/a&gt;. It&amp;rsquo;s a fantastic application, and I&amp;rsquo;ve definitely
 got my money&amp;rsquo;s worth out of it. After partnering with &lt;a href=&#34;http://newsgator.com/&#34;&gt;NewsGator&lt;/a&gt;, I
 started using their online feed-reader on and off, with mixed
