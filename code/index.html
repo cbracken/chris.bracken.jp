@@ -45,19 +45,21 @@ GitHub.</li>
 <ul>
 <li><a href="https://github.com/flutter/flutter/">Flutter</a>: portable,
 cross-platform app SDK and runtime. Most of my contributions focus on
-the portable C++ <a href="http://github.com/flutter/engine/">runtime</a> and
-tools.</li>
+the portable C++ <a href="http://github.com/flutter/engine/">runtime</a>, the
+platform-specific embedders, and tools.</li>
 <li><a href="https://github.com/dart-lang/sdk/">Dart SDK/VM</a>: the Dart programming
 language is a strongly-typed, object-oriented, garbage-collected
 language with C-like syntax. Compiles to either native code (either
 ahead-of-time or JITed in the VM) or JavaScript for the web.</li>
 <li><a href="https://github.com/dart-lang/coverage/">Dart Code Coverage</a>: LCOV
 support for code executed on the Dart VM.</li>
-<li><a href="https://github.com/google/quiver-dart/">Quiver</a>: a set of utility
-libraries for Dart.</li>
 <li><a href="https://github.com/dart-lang/fixnum/">Fixnum</a>: a fixed-width 32- and
 64-bit integer library for Dart. Dart&rsquo;s int semantics vary between
-platforms.</li>
+native platforms (64-bit) and the web (IEEE 53-bit mantissa). This
+library allows those with hard requirements on 64-bit values (e.g.
+database IDs) to write code that is portable to web targets.</li>
+<li><a href="https://github.com/google/quiver-dart/">Quiver</a>: a set of utility
+libraries for Dart.</li>
 </ul>
 </article>
 </main>

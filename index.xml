@@ -646,7 +646,7 @@ I&amp;rsquo;m a software developer who&amp;rsquo;s been fascinated by computers 
       
       <guid>https://chris.bracken.jp/code/</guid>
       <description>You can find most of the public code I contribute to hosted at one of the following sites:
- GitHub: The most popular source code hosting solution and where most of my public contributions lie. GitLab: Better features and UI than GitHub.  Significant contributions  Flutter: portable, cross-platform app SDK and runtime. Most of my contributions focus on the portable C++ runtime and tools. Dart SDK/VM: the Dart programming language is a strongly-typed, object-oriented, garbage-collected language with C-like syntax.</description>
+ GitHub: The most popular source code hosting solution and where most of my public contributions lie. GitLab: Better features and UI than GitHub.  Significant contributions  Flutter: portable, cross-platform app SDK and runtime. Most of my contributions focus on the portable C++ runtime, the platform-specific embedders, and tools. Dart SDK/VM: the Dart programming language is a strongly-typed, object-oriented, garbage-collected language with C-like syntax.</description>
     </item>
     
   </channel>
